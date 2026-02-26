@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Meeting Scheduler Agent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4e73df, #1cc88a);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            margin: 10px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .btn-primary {
+            background: #fff;
+            color: #4e73df;
+        }
+
+        .btn-primary:hover {
+            background: #ddd;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #4e73df;
+        }
+
+        .chat-demo {
+            background: #eef2ff;
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        footer {
+            background: #2e2e2e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🤖 AI Meeting Scheduler Agent</h1>
+    <p>Automate your meetings with smart AI scheduling, conflict detection & calendar integration.</p>
+    <button class="btn btn-primary">Schedule a Meeting</button>
+    <button class="btn btn-secondary">Try Demo</button>
+</header>
+
+<section>
+    <h2 class="section-title">⚙️ How It Works</h2>
+    <div class="features">
+        <div class="card">
+            <h3>📅 Analyze Calendar</h3>
+            <p>AI checks your availability and detects conflicts automatically.</p>
+        </div>
+        <div class="card">
+            <h3>🤖 Smart Suggestions</h3>
+            <p>Suggests optimal meeting times based on priority and timezone.</p>
+        </div>
+        <div class="card">
+            <h3>📨 Auto Invitations</h3>
+            <p>Sends email invites and meeting links instantly.</p>
+        </div>
+        <div class="card">
+            <h3>🔔 Smart Reminders</h3>
+            <p>AI sends reminders and reschedules when needed.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">💬 Natural Language Scheduling</h2>
+    <div class="chat-demo">
+        <p><strong>User:</strong> Schedule a meeting with Rahul tomorrow at 3 PM for 30 minutes.</p>
+        <br>
+        <p><strong>AI:</strong> ✅ Meeting scheduled successfully! Invitation sent.</p>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">🌟 Key Features</h2>
+    <div class="features">
+        <div class="card">
+            <h3>Conflict Detection</h3>
+            <p>Prevents overlapping meetings.</p>
+        </div>
+        <div class="card">
+            <h3>Time Zone Handling</h3>
+            <p>Automatically adjusts time across regions.</p>
+        </div>
+        <div class="card">
+            <h3>AI Priority Ranking</h3>
+            <p>Ranks meetings based on importance.</p>
+        </div>
+        <div class="card">
+            <h3>Meeting Dashboard</h3>
+            <p>View upcoming, past and cancelled meetings.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">🚀 Ready to Automate Your Meetings?</h2>
+    <button class="btn btn-primary">Get Started</button>
+</section>
+
+<footer>
+    <p>© 2026 AI Meeting Scheduler Agent | Built by Saniya Shaikh</p>
+</footer>
+
+</body>
+</html>
